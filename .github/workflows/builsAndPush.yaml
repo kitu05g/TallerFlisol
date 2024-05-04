@@ -2,7 +2,7 @@ name: Docker Build And Push To Hub
 
 on: 
   push: 
-    branchers:
+    branches:
       - master
 
 jobs:
