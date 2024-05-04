@@ -9,6 +9,6 @@ RUN bun install --prodcution
 COPY src src
 COPY tsconfig.json .
 
-CMD ["bun", "src/indes.ts"]
+CMD ["bun", "src/index.ts"]
 
 EXPOSE 3000
